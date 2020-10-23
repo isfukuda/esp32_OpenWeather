@@ -28,10 +28,8 @@
 //////////////////////////////
 // Setttings defined below
 
-#define WIFI_SSID      "NI-760S_773F"
-#define WIFI_PASSWORD  "40020319"
-// #define WIFI_SSID      "Buffalo-A-3CF8"
-// #define WIFI_PASSWORD  "4yb6cikiy5ux4"
+#define WIFI_SSID      "<HOTHOT>"
+#define WIFI_PASSWORD  "<HOTHOT>"
 
 #define TIMEZONE jp // See NTP_Time.h tab for other "Zone references", UK, usMT etc
 
@@ -45,11 +43,11 @@ const String units = "metric";
 
 // Sign up for a key and read API configuration info here:
 // https://openweathermap.org/, change x's to your API key
-const String api_key = "fd751d5f5d34d0f40864b7ea19a77ad9";
+const String api_key = "HOTHOT";
 
 // Set the forecast longitude and latitude to at least 4 decimal places
-const String latitude =  "35.8417467"; // 90.0000 to -90.0000 negative for Southern hemisphere
-const String longitude = "139.433172"; // 180.000 to -180.000 negative for West
+const String latitude =  "90.0000"; // 90.0000 to -90.0000 negative for Southern hemisphere
+const String longitude = "180.000"; // 180.000 to -180.000 negative for West
 
 // For language codes see https://openweathermap.org/current#multi
 const String language = "en"; // Default language = en = English
